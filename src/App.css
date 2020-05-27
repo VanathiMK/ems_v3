@@ -23,7 +23,40 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.containerbg{
+  background-color: rgb(185, 208, 218);
+  max-width: 800px;
+}
+.customButton{
+  min-width: 80px;
+}
+.pad{
+  border: 1px  black;
+  margin:20px;
+}
+.contBgPink{
+  background-color: plum;
+  border: 1px black 
+}
+.simpleBorder{
+border: 2px solid black;
+}
+.botBorder{
 
+padding-bottom: 10px;
+}
+.customColor2{
+  color: slategray;
+}
+.customColor3{
+  color:hsl(93, 84%, 46%);
+}
+.customColor{
+  color: blue;
+}
+.customTextError{
+  color:blue;
+}
 .App-link {
   color: #61dafb;
 }
