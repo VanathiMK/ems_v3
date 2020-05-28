@@ -4,7 +4,7 @@
 
  1. Import the ems project.
 
-2.	Default port is set to 3000 (Open package.json and change to desired port in scripts part).
+2.	Default port is set to 3001 (Open package.json and change to desired port in scripts part).
 
 3.	Open Command Prompt and navigate to project folder and start the project.
 
