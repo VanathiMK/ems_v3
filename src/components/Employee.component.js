@@ -109,8 +109,14 @@ class Employee extends react.Component{
           formIsValid = false;
           errors["email"] = "*Please enter a valid email id";
         }
-  
-        
+  let mail = this.state.email;
+  mail=mail.toLowerCase();
+  console.log(mail);
+        if(!(mail.endsWith("@zyllu.com"))){
+            console.log("inside check");
+            formIsValid=false;
+            errors["email"]="Wrong domain.Please enter Zyllu mail id";
+        }
   
         if (!this.state.dob) {
           formIsValid = false;
